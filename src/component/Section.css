@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+.section {
+    
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    text-align: left;
+  }
+  
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+  
+  .section-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .section.row-reverse .section-body {
+    flex-direction: row-reverse;
+  }
+  
+  .section img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+
+  }
+   h2 { 
+
+    font-family: "Capriola", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    
+  }
+
+  p{
+
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+  }
+  
+  .section-text {
+    flex: 1;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+  }
+  
+  @media (max-width: 768px) {
+    .section-body {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .section.row-reverse .section-body {
+      flex-direction: column;
+    }
+  
+    .section img {
+      max-width: 100%;
+    }
+  }
+  

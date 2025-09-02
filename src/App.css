@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&display=swap');
+
+
+
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+  background-image: url('src/public/image/estampado-flores-acuarela_23-2149484259.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+
+
+header {
+  background-color: #690a96a8;
+  padding: 10px;
+  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-list :hover{
+
+  background-color: #61229b8f;
+  border-radius: 10px;
+  
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style:bold;
+  font-size: large;
+}
+
+.section {
+  
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.section img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+#inicio img {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: auto;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  background-color: #4d066ea8;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+footer {
+  padding: 20px;
+  background-color: #690a96a8;
+  color: #fff;
+}
+
+#icono :hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+ 
+}
+
