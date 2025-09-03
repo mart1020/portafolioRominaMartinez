@@ -29,7 +29,7 @@ function App() {
 
       <section data-aos="zoom-in">
       <FloatingSocials/>
-      <Section id="inicio" imgSrc="src/public/image/fotoperfilR.png" data-aos="fade-up">
+      <Section id="inicio" imgSrc="/public/fotoperfilR.png" data-aos="fade-up">
           
           <h1>Martínez Romina Natalia</h1>
           <h3>Desarrollador</h3>
